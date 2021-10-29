@@ -3,6 +3,9 @@ h1{
     }
  .descricao{
      font-family: cursive;
+     display: inline-block;
+     vertical-align: top;
+     margin: 5px 0px 0px 0px;
  }
  body{
      background-color: #DBD8F0;
@@ -20,3 +23,7 @@ h1{
  .gigante{
      font-size: x-large;
  }
+ .fotoetexto{
+     display: inline;
+ }
+
