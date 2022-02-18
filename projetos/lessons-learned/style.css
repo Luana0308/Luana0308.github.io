@@ -1,0 +1,139 @@
+body {
+  width: 1366px;
+  background-color: rgb(248, 246, 247);
+}
+#cabecalho{
+    top: 0;
+    position: fixed;
+    z-index: 1;
+    width: 99%;
+    border-radius: 10px;
+    background-color: rgb(247, 184, 243);
+    display: block;
+}
+#titulo{
+  font-family: cursive;
+  font-size: 30px;
+  text-align: center;
+  z-index: 1;
+  color: rgb(148, 7, 101);
+}
+
+#container{
+    margin-top: 103px;
+}
+
+#navegação {
+  position: fixed;
+  z-index: 1;
+  border-radius: 10px;
+  width: 98%;
+  text-align: center;
+  background-color: rgb(247, 192, 228);
+  padding: 10px;
+  font-size: large;
+  display: block;
+}
+#licoes_navegacao,
+#barra,
+#habilidades,
+#fim,
+#licoesaprendidas {
+  margin-left: 30px;
+  color: rgb(49, 7, 27);
+}
+#minha_foto {
+    margin-top: 80px;
+    border-radius: 50px;
+    text-align: center;
+    background-image: url('https://www.10wallpaper.com/wallpaper/1366x768/1310/stripes_lines_dots_glitter-Abstract_wallpaper_1366x768.jpg');
+}
+#licoes_aprendidas {
+  display: inline-block;
+  color: rgb(67, 8, 107);
+   background-color: rgb(248, 217, 240);
+  max-width: 600px;
+  border-radius: 400px;
+}
+
+#hardSkill {
+  display: inline;
+  margin-left: 150px;
+  position: relative;
+  
+}
+
+#licoes_a_aprender {
+  display: inline-block;
+  margin-left: 150px;
+  color: rgb(143, 8, 125);
+  background-color: rgb(230, 215, 243);
+  border-radius: 180px;
+  margin-bottom: 80px;
+}
+
+#border {
+  background-color: rgb(226, 205, 219);
+  border-radius: 100px;
+  max-width: 90%;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+#secao1 {
+  display: inline;
+  color: rgb(146, 53, 155);
+}
+
+#table{
+    line-height: 30px;
+    border: rgb(134, 10, 87) solid 4px;
+    margin-left: 735px;
+}
+
+#table-soft {
+  margin-left: 800px;
+  display: inline;
+  color: rgb(114, 8, 114);
+  text-align: center;
+}
+
+#desenvolvimento {
+  display: block;
+  float: left;
+}
+
+#desenvolvimentoFoto {
+  border-radius: 20px;
+}
+
+#rodape {
+  text-align: center;
+  padding: 5px;
+  margin-top: 10px;
+  display: block;
+  background-color: rgb(245, 186, 210);
+}
+.lado-esquerdo {
+  text-align: center;
+  max-width: 400px;
+  float: left;
+  font-size: large;
+  margin-left: 20px;
+  color: rgb(121, 23, 124);
+}
+
+#imagePrancheta {
+  margin-left: 500px;
+}
+
+#aprendizado-image {
+  border-radius: 20px;
+}
+
+.lado-direito {
+  max-width: 300px;
+  font-size: large;
+  text-align: center;
+  margin-left: 100px;
+}
