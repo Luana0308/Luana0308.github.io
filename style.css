@@ -118,8 +118,13 @@ header {
   background-color: rgb(245, 246, 247);
   position:fixed;
   top:0;
-  right: 0;
+  right: -20rem;
+  transition: all 1s;
 
+}
+
+.sidebar.show-menu{
+  right: 0;
 }
 
 .menu{
