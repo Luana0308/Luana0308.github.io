@@ -5,6 +5,28 @@
 * {
   margin: 0%;
   padding: 0%;
+  list-style: none;
+  text-decoration: none;
+}
+
+.hamburguer{
+  width: 2rem;
+  height: 2rem;
+  position: fixed;
+  z-index: 1;
+  right: 2rem;
+  top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+
+.line{
+  width: 100%;
+  background-color: aliceblue;
+  height: .2rem;
+  box-shadow: 0.1rem 0.1rem 0.5px #ec6c90;
 }
 
 header {
@@ -88,4 +110,60 @@ header {
   100%{
     transform: translateY(0) rotateY(0);
   }
+}
+
+.sidebar{
+  width: 20rem;
+  height: 100vh;
+  background-color: rgb(245, 246, 247);
+  position:fixed;
+  top:0;
+  right: 0;
+
+}
+
+.menu{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.menu-item{
+  text-align: center;
+  margin-bottom: .5rem;
+}
+
+.menu-link{
+  font-family: 'Baloo Da 2',sans-serif;
+  font-size: 2rem;
+  color: rgb(71, 3, 18);
+  transition: color 1s;
+}
+
+.menu-link:hover{
+  color: #ec6c90;
+}
+
+.social-media{
+  position: absolute;
+  bottom: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.social-media i{
+  color: #800528;
+  height: 2.5rem;
+  width: 2.5rem;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media i:hover{
+  color: #ec6c90;
 }
