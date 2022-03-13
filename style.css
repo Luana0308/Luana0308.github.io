@@ -255,3 +255,80 @@ header {
   object-fit: cover;
   width: 100%;
 }
+
+.projetos{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card{
+  width: 18rem;
+  height: 25rem;
+  position: relative;
+  margin-bottom: 4rem;
+}
+
+.card-img-wrapper{
+  width: 100%;
+  height: 100%;
+}
+
+.card-img-wrapper img{
+  width: 100%;
+  height: 100%;
+  border-radius: .8rem;
+  opacity: .8;
+  transition: opacity .3s;
+}
+
+.card:hover .card-img-wrapper img{
+  opacity: 0.5;
+}
+
+.card-info{
+  position:absolute;
+  bottom: 0;
+  padding: 2rem;
+  text-shadow: #F4E2D8;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .3s;
+
+}
+.card-info h2{
+  font-family: 'Lucida Sans', sans-serif;
+  font-size: 2rem;
+  color: rgb(59, 9, 37);
+  margin-bottom: 1rem;
+}
+
+.card-info h3{
+  font-family: 'Lucida Sans', sans-serif;
+  font-size: 1rem;
+  color: rgb(151, 15, 92);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.card-info p{
+  font-family: 'Lucida Sans', sans-serif;
+  color: #ec6c90;
+  margin-bottom: 0.9rem;
+}
+
+.card-info button{
+  width: 8rem;
+  height: 2.5rem;
+  text-transform: uppercase;
+  background: #BA5370; 
+  background: -webkit-linear-gradient(to right, #F4E2D8, #d33f69);  
+  background: linear-gradient(to right, #F4E2D8, #BA5370);
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.card:hover .card-info{
+  opacity: 1;
+  visibility: visible;
+  bottom: 2rem;
+}
