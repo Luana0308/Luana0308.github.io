@@ -209,3 +209,49 @@ header {
   grid-column: 11/14;
   grid-row: 5/-1;
 }
+
+.sessao-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sessao-header h1{
+  font-family: 'Baloo Da 2',sans-serif;
+  font-size: 3rem;
+  color: #960a7a;
+  border-bottom:  solid 3px rgb(245, 222, 237);
+  margin-bottom: 1.5rem;
+}
+
+.conhecimento-header{
+  display: flex;
+  align-items: center;
+}
+
+.conhecimento-header i{
+  font-size: 2rem;
+  color: #ec6c90;
+}
+
+.conhecimento-header h3{
+  font-family: 'Lucida Sans', sans-serif;
+  font-size: 2rem;
+  padding-left: 1rem;
+  color: #550242;
+}
+
+.conhecimento-text{
+  font-family: 'Lucida Sans', sans-serif;
+  margin-top: 1rem;
+}
+
+.conhecimentos-img-wrapper{
+  grid-column: 7/11;
+  grid-row: 2/6;
+  max-width: 100%;
+}
+.conhecimentos-img-wrapper img{
+  object-fit: cover;
+  width: 100%;
+}
